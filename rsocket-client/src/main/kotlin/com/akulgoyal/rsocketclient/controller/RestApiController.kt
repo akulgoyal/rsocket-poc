@@ -12,22 +12,22 @@ class RestApiController(
 ) {
 
     @GetMapping("request-stream")
-    fun requestStream(): Flux<String> {
+    fun triggerRequestStream(): Flux<String> {
         return communicationService.requestStream()
     }
 
     @GetMapping("request-response")
-    fun requestResponse(): Mono<String> {
+    fun triggerRequestResponse(): Mono<String> {
         return communicationService.requestResponse()
     }
 
     @GetMapping("fire-and-forget")
-    fun fireAndForget(): Mono<String> {
+    fun triggerFireAndForget(): Mono<String> {
         return communicationService.fireAndForget()
     }
 
     @GetMapping("channel")
-    fun channel(): Mono<Void> {
+    fun triggerChannel(): Mono<Void> {
         return communicationService.initiateBiDirectionalChannel()
     }
 }
