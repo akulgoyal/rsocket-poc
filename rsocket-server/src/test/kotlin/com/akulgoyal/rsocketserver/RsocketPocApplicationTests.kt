@@ -1,4 +1,4 @@
-package com.akulgoyal.rsocketpoc
+package com.akulgoyal.rsocketserver
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

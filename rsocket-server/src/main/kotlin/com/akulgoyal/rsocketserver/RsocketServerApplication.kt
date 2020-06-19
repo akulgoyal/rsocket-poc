@@ -1,4 +1,4 @@
-package com.akulgoyal.rsocketpoc
+package com.akulgoyal.rsocketserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

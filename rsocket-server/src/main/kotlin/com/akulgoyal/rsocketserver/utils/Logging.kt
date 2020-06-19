@@ -1,4 +1,4 @@
-package com.akulgoyal.rsocketpoc.utils
+package com.akulgoyal.rsocketserver.utils
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

@@ -1,6 +1,6 @@
-package com.akulgoyal.rsocketpoc.controller
+package com.akulgoyal.rsocketserver.controller
 
-import com.akulgoyal.rsocketpoc.utils.logger
+import com.akulgoyal.rsocketserver.utils.logger
 import org.springframework.messaging.handler.annotation.MessageMapping
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.RequestBody
